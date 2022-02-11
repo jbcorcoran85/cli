@@ -1,0 +1,30 @@
+{
+  "name": "first",
+  "version": "1.0.1",
+  "description": "my first cli",
+  "main": "bin/index.js",
+  "bin": {
+    "first": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbcorcoran85/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "jbcorcoran85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbcorcoran85/cli/issues"
+  },
+  "homepage": "https://github.com/jbcorcoran85/cli#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "yargs": "^17.3.1"
+  }
+}
